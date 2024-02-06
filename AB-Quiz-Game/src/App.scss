@@ -1,0 +1,48 @@
+.main {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+
+  .LogoSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    bottom: 5px;
+
+    .logo {
+      width: 130px;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .name {
+      font-family: MeowScript;
+      font-size: 30px;
+      padding: 0px;
+      margin: 0px;
+    }
+  }
+
+  .CardSection {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+.background {
+  position: fixed;
+  z-index: 0;
+  height: 100%;
+  margin-left: -750px;
+}
