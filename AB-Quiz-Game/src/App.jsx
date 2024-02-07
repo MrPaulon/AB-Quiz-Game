@@ -1,6 +1,6 @@
 import './App.scss'
-import AB_Background from "../public/au-bureau-bg.png"
-import AB_Logo from "../public/au-bureau-logo.png"
+import AB_Background from "./assets/img/au-bureau-bg.png"
+import AB_Logo from "./assets/img/au-bureau-logo.png"
 
 import Card from "./assets/modules/Card/Card.jsx"
 
@@ -10,17 +10,12 @@ function App() {
     <>
       <img className='background' src={AB_Background} alt="" />
       <div className='main'>
-
-        <div className="CardSection">
-
         <Card/>
+      </div>
 
-        </div>
-
-        <div className="LogoSection">
-          <img className='logo' src={AB_Logo} alt="" />
-          <h5 className='name'>Flins</h5>
-        </div>
+      <div className="logoSection">
+        <img className='logo' src={AB_Logo} alt="" />
+        <p className='name'>Flins</p>
       </div>
     </>
   )
