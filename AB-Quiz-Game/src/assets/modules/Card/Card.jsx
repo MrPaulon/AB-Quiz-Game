@@ -23,7 +23,7 @@ export default function App() {
       "Cite 3 choses que tu aimes le plus chez moi  ?",
       "Quel est mon talent spécial ? ",
       "Quelle est la chose que je n’aime pas chez moi ?",
-      "Tu deviens invisible pour le prochaine heure, quelle est la première chose que tu fais ?",
+      "Tu deviens invisible pour la prochaine heure, quelle est la première chose que tu fais ?",
       "Si tu pouvais transformer une de tes habitudes quotidiennes en sport olympique, laquelle choisirais-tu ?",
       "Si tu étais un plat, quel type de plat serais-tu et pourquoi ?",
       "Quelle est ta plus grosse bêtise enfant ?",

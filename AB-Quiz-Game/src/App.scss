@@ -16,7 +16,7 @@
 .logoSection {
   position: fixed;
   z-index: 99;
-  bottom: 5px;
+  bottom: 0px;
   width: 100%;
 
   display: flex;
@@ -25,13 +25,13 @@
   align-items: center;
 
   .logo {
-    width: 130px;
+    width: 100px;
   }
 
   .name {
     color: white;
     font-family: MeowScript;
-    font-size: 30px;
+    font-size: 28px;
     margin: 0;
     padding: 0;
   }
